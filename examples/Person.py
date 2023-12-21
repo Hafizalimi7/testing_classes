@@ -2,19 +2,10 @@ class Unknown:
 
   def __init__(self, f_name, l_name, age) -> None:
 
-    # def raise_error_(self):
-    #   if not isinstance(self.f_name, str):
-    #     raise TypeError("First name should be a string")
-    #   if not isinstance(self.l_name, str):
-    #     raise TypeError("Last name should be a string")
-    #   if not isinstance(self.age, int):
-    #     raise TypeError("Age has to be a interger")
-
-
     self.f_name = f_name
     self.l_name = l_name 
     self.age = age
-    self.wage = 50
+    self.wage = 2000
     self.year_salary = 0
     self.hobbies = []
     
@@ -48,21 +39,10 @@ class Unknown:
     for word in list_h:
       self.hobbies.append(word)
     return f"{self.hobbies}"
-  
-  def favourite_hobby(self):
-    line = " is my favourite hobby"
-    return f"{self.hobbies[1] + line}"
+
      
      
 
 
-user1 = Unknown("Hafiz", "Alimi", 28)
-# print(user1.first_name())
-# print(user1.last_name())
-# print(user1.full_name())
-# print(user1.person_age())
-# print(user1.wage)
-# print(user1.bank_acc())
-# print(user1.list_of_hobbies())
-# print(user1.favourite_hobby())
+
 
